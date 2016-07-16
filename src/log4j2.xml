@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+  <Appenders>
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{MM/dd/YYY  -||- HH:mm:ss}  -||-  [TestCase]=  %msg%n"/>
+      
+    </Console>
+   <!--  <File name="FileLogger" fileName="//dcbos2/QA/Automation/Assign/Test Report and Step/automationtestresult.csv"> -->
+     
+   <!--<File name ="FileLogger" fileName="C://MedAptus_Project/APA_Project/src/main/java/REPORT/DETAIL Automation LOG.csv">-->
+   <File name ="FileLogger" fileName="C://Documents//Automation Logs/DETAIL Automation LOG.txt">
+
+
+
+      <PatternLayout>
+        
+        <Pattern> %d{MM/dd/YYY -||- HH:mm:ss} -||-   %msg%n </Pattern>
+        
+      </PatternLayout>
+    </File>
+    
+      <Async name="Async">
+      <AppenderRef ref="FileLogger"/>
+    </Async>
+  </Appenders>
+  <Loggers>
+    <Logger name="utility.Navigation.BaseLogger" level="trace" additivity="false">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="FileLogger"/>
+    </Logger>
+    <Root level="error">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="FileLogger"/>
+    </Root>
+  </Loggers>
+</Configuration>
