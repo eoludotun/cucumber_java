@@ -21,7 +21,6 @@ public static void main() {
 
     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-    //Launch the Online Store Website
 
     driver.get("http://www.store.demoqa.com");
 
