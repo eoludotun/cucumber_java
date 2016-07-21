@@ -1,0 +1,5 @@
+07/20/2016 -||- 03:57:05 -||-   Step: 1 clickLoginButton  => Successful
+07/20/2016 -||- 03:59:12 -||-   Step: 1 clickLoginButton  => Successful
+07/21/2016 -||- 01:44:23 -||-   Step: 1 clickLoginButton  => Successful
+07/21/2016 -||- 02:16:00 -||-   Error in Step 1 When: clickLoginButton => because null
+07/21/2016 -||- 02:18:42 -||-   Step: 1 clickLoginButton  => Successful

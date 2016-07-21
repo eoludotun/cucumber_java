@@ -1,4 +1,4 @@
-package stepDefinition;
+package utility.pom;
 
 import java.io.File;
 import java.util.Date;
@@ -37,7 +37,7 @@ public class BaseClassPOM {
 	    public static Logger log()
 	    {
 	    	if(_logger == null)
-	    		_logger = LogManager.getLogger("utility.Navigation.BaseLogger");
+	    		_logger = LogManager.getLogger("utility.pom.BaseLogger");
 	    	return _logger;
 	    }
 	    

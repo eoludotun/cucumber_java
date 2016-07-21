@@ -1,4 +1,4 @@
-package cucumberTest;
+package com.cucumberTest;
 
 import java.util.concurrent.TimeUnit;
 

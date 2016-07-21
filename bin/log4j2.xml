@@ -8,7 +8,8 @@
    <!--  <File name="FileLogger" fileName="//dcbos2/QA/Automation/Assign/Test Report and Step/automationtestresult.csv"> -->
      
    <!--<File name ="FileLogger" fileName="C://MedAptus_Project/APA_Project/src/main/java/REPORT/DETAIL Automation LOG.csv">-->
-   <File name ="FileLogger" fileName="C://Documents//Automation Logs/DETAIL Automation LOG.txt">
+   <File name ="FileLogger" fileName="C://Test_Project//SeleniumTest//Automation Logs/DETAIL Automation LOG.txt">
+   
 
 
 
@@ -24,7 +25,7 @@
     </Async>
   </Appenders>
   <Loggers>
-    <Logger name="utility.Navigation.BaseLogger" level="trace" additivity="false">
+    <Logger name="utility.pom.BaseLogger" level="trace" additivity="false">
       <AppenderRef ref="Console"/>
       <AppenderRef ref="FileLogger"/>
     </Logger>

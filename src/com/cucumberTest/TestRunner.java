@@ -1,4 +1,4 @@
-package cucumberTest;
+package com.cucumberTest;
 
 import org.junit.runner.RunWith;
 
