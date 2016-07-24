@@ -10,7 +10,8 @@ package utility.pom;
     public static final String sUserName = "Admin";  
     public static final String sPassWord = "medaptu$a$$ign";
     public static final String sAscending = "Sort Ascending";
-    public static final String Screenshot = "C://Users//eoludotun//Desktop//Automation Logs//SCREEN SHOT RESULTS";
+    public static final String Screenshot = "C://Test_Project//SeleniumTest////Automation Logs//SCREEN SHOT RESULTS";
+  
   
     public static final String BasicRuleCVS = "C://Basic Rule Test CVS/patients.csv";
     public static final String DROPBOXCVS = "C://dropbox//MedAptus";

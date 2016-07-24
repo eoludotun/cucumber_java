@@ -75,5 +75,6 @@
 	<classpathentry kind="lib" path="C:/Test_Project/MedAptus_Project/APA_Project/lib/xalan-2.7.2.jar"/>
 	<classpathentry kind="lib" path="C:/Test_Project/MedAptus_Project/APA_Project/lib/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="C:/Test_Project/MedAptus_Project/APA_Project/lib/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="C:/all_jars/snakeyaml-1.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -25,6 +25,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 
 import utility.pom.Constant;
 
@@ -171,11 +172,17 @@ import utility.pom.Constant;
 	    	   
             
         }
-
+        @AfterTest
+        public void closeDown() throws Exception 
+        {
+     	  //logout();
+     	  driver.quit();
+     	  driver.close();
+        }
        @AfterMethod
        public void tearDown() throws Exception 
        {
-    	  logout();
+    	  //logout();
     	  driver.quit();
            
     	 
