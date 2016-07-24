@@ -1,3 +1,6 @@
 07/24/2016 -||- 10:53:46 -||-   Step: 1 clickCheckOutButton  => Successful
 07/24/2016 -||- 10:53:46 -||-   Step: 2 typeEmail  => Successful
 07/24/2016 -||- 10:53:47 -||-   Step: 3 typeUserName  => Successful
+07/24/2016 -||- 11:01:00 -||-   Step: 1 clickCheckOutButton  => Successful
+07/24/2016 -||- 11:01:00 -||-   Step: 2 typeEmail  => Successful
+07/24/2016 -||- 11:01:01 -||-   Step: 3 typeUserName  => Successful

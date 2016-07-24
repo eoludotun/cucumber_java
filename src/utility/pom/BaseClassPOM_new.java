@@ -184,7 +184,7 @@ public class BaseClassPOM_new {
   		return false;
   	}
   
-  	protected WebElement clickElement(By locator,String name) throws Exception
+  	protected WebElement operateOnElement(By locator,String name) throws Exception
     {
   	  x =i++;
  	   try

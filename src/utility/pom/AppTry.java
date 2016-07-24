@@ -21,22 +21,23 @@ public class AppTry extends BaseClassPOM_new{
 		public WebElement clickCheckOutButton() throws Exception
 	       {
 			name = new Object(){}.getClass().getEnclosingMethod().getName();
-	       
-	    	   return this.clickElement(By.linkText("Check Out"),name);
+	      
+	    	   return this.operateOnElement(By.linkText("Check Out"),name);
 	       }
 
 		
 		public WebElement typeEmail() throws Exception
 	       {
 			name = new Object(){}.getClass().getEnclosingMethod().getName();
-	       
-	    	   return this.clickElement(By.id("email"),name);
+			 
+			   return this.operateOnElement(By.id("email"),name);
+
 	       }
 		public WebElement typeUserName() throws Exception
 	       {
 			name = new Object(){}.getClass().getEnclosingMethod().getName();
-	       
-	    	   return this.clickElement(By.id("nam"),name);
+	      
+	    	   return this.operateOnElement(By.id("name"),name);
 	       }
 }
 
