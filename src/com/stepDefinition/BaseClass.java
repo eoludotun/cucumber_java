@@ -26,25 +26,16 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 
-
-
-
-import com.CommonAction.Test.Constant;
-
+import utility.pom.Constant;
 
     public class BaseClass {
 	protected WebDriver driver;
 	
-	
-	
-
     public void StartTesting()
     {
     	// here you need to set to the browser you would like to use in constant class.
    	    String browser = Constant.browserType;
 	 
-
-	
 		try {
 		    
 			//Different Browser needed to be tested. This check all the Browser settings

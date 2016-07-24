@@ -3,10 +3,9 @@ package utility.pom;
    public class Constant 
    {
 	
-	//public static final String URL = "http://bat:8457/AssignUI/index.html#assign";
-	public static final String URL = "http://medv-qa-01:8082/AssignUI/index.html";
-	//public static final String URL = "http://bat:8181/AssignUI/index.html#login";
-	//http://bat:8181/AssignUI/index.html#login
+	public static final String URL = "http://practiceselenium.com/practice-form.html";
+	
+	
 	
     public static final String sUserName = "Admin";  
     public static final String sPassWord = "medaptu$a$$ign";
@@ -16,7 +15,7 @@ package utility.pom;
     public static final String BasicRuleCVS = "C://Basic Rule Test CVS/patients.csv";
     public static final String DROPBOXCVS = "C://dropbox//MedAptus";
     
-    public static final String ThirdPartyChromeDriver= "/selenium_JARS/ChromeDriver.exe";
+    public static final String ThirdPartyChromeDriver= "/selenium_drivers/ChromeDriver.exe";
     public static final String ThirdPartyDriver2= "C://phantomjs.exe";
     public static final String ThirdPartyInternetExplorerDriver= "/selenium_JARS/IEDriverServer.exe";
     public static final String Option = "3 East";

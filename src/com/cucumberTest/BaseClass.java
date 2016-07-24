@@ -26,7 +26,8 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 
-import com.CommonAction.Test.Constant;
+import utility.pom.Constant;
+
 
 
     public class BaseClass {
@@ -63,7 +64,6 @@ import com.CommonAction.Test.Constant;
 					driver.manage().window().maximize();
 					
 					driver.get(Constant.URL);
-					driver.manage().deleteAllCookies();
 					driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 				} else if (browser.equalsIgnoreCase("InternetExplorer"))
 				{ 
@@ -181,6 +181,7 @@ import com.CommonAction.Test.Constant;
        public void tearDown() throws Exception 
        {
     	  logout();
+    	  driver.manage().deleteAllCookies();
     	  driver.quit();
            
     	 

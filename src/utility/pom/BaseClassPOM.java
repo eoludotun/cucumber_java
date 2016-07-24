@@ -22,9 +22,6 @@ public class BaseClassPOM {
 	
 	public WebDriver driver;
 
-	
-
-
 	public BaseClassPOM(WebDriver driver)  
 	{
 		this.driver = driver;

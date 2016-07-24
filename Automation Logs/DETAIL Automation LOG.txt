@@ -1,5 +1,11 @@
-07/20/2016 -||- 03:57:05 -||-   Step: 1 clickLoginButton  => Successful
-07/20/2016 -||- 03:59:12 -||-   Step: 1 clickLoginButton  => Successful
-07/21/2016 -||- 01:44:23 -||-   Step: 1 clickLoginButton  => Successful
-07/21/2016 -||- 02:16:00 -||-   Error in Step 1 When: clickLoginButton => because null
-07/21/2016 -||- 02:18:42 -||-   Step: 1 clickLoginButton  => Successful
+07/23/2016 -||- 21:24:10 -||-   test start
+07/23/2016 -||- 21:24:11 -||-   Step: 1 clickBillingButton  => Successful
+07/23/2016 -||- 21:24:12 -||-   Step: 2 [[ChromeDriver: chrome on WIN8_1 (ba5a3ca61ee8088c9584959b5d75ebb9)] -> id: name]  => Successful
+07/23/2016 -||- 21:26:51 -||-   Step: 1 clickBillingButton  => Successful
+07/23/2016 -||- 21:27:42 -||-   Step: 1 clickBillingButton  => Successful
+07/23/2016 -||- 21:27:42 -||-   Step: 2 [[ChromeDriver: chrome on WIN8_1 (a7cfdf85194eb266fcfffaf04d018241)] -> id: name]  => Successful
+07/23/2016 -||- 21:29:26 -||-   Step: 1 clickBillingButton  => Successful
+07/23/2016 -||- 21:30:33 -||-   Step: 1 clickBillingButton  => Successful
+07/23/2016 -||- 21:30:37 -||-   Step: 2 [[ChromeDriver: chrome on WIN8_1 (d6f492cc3a90b1d2b086bac7f523bc8d)] -> id: name]  => Successful
+07/23/2016 -||- 21:31:29 -||-   Step: 1 clickBillingButton  => Successful
+07/23/2016 -||- 21:31:30 -||-   Step: 2 [[ChromeDriver: chrome on WIN8_1 (467e88e8f37c66b0bca86d43d1d48fe1)] -> id: name]  => Successful

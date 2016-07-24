@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.CommonAction.Test.Constant;
+
 
 public class AppPagesPom  extends BaseClassPOM{
 	
@@ -68,16 +68,16 @@ public class AppPagesPom  extends BaseClassPOM{
 		}
 		
 	   
-	    public void clickLoginButton() throws Exception
+	    public void clickBillingButton() throws Exception
 	    {
 	    	x =i++;
 	    	name = new Object(){}.getClass().getEnclosingMethod().getName();
 	    	try{ 
 	    	WebDriverWait wait = new WebDriverWait(driver, 90);	 
 	    	
-	         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//*[@id='account']/a")));
+	         wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("Check Out")));
 	         
-	         WebElement navigateLogin = driver.findElement(By.xpath(".//*[@id='account']/a"));
+	         WebElement navigateLogin = driver.findElement(By.linkText("Check Out"));
 	    	if (navigateLogin.isDisplayed()&& navigateLogin.isEnabled())
 	    	{
 	    		navigateLogin.click();
@@ -89,6 +89,53 @@ public class AppPagesPom  extends BaseClassPOM{
 	              log().debug("Error in Step "+x+" When: " + name  + " => because " + e.getMessage());
 	              throw(e);
 	        }
-	              
 	        }
+	    	
+	    	public void userEmail(String userEmail, String userName) throws Exception
+		    {
+		    	x =i++;
+		    	name = new Object(){}.getClass().getEnclosingMethod().getName();
+		    	try{ 
+		    	WebDriverWait wait = new WebDriverWait(driver, 90);	 
+		    	
+		         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("email")));
+		         
+		         WebElement email = driver.findElement(By.id("email"));
+		         WebElement name = driver.findElement(By.id("name"));
+		    	if (email.isDisplayed()&& email.isEnabled() || name.isDisplayed() && name.isEnabled())
+		    	{
+		    		email.sendKeys(userEmail);
+		    		name.sendKeys(userName);
+		    	}
+		    	
+		        log().debug("Step: " + x +" " + name  + "  => Successful");
+		        }catch (Exception e){
+		        	Take_Screenshot( Constant.Screenshot, "Failed at " + name);
+		              log().debug("Error in Step "+x+" When: " + name  + " => because " + e.getMessage());
+		              throw(e);
+		        }
+		    	
+	        }
+	    	public void userName(String userName) throws Exception
+		    {
+		    	x =i++;
+		    	name = new Object(){}.getClass().getEnclosingMethod().getName();
+		    	try{ 
+		    	WebDriverWait wait = new WebDriverWait(driver, 90);	 
+		    	
+		         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("name")));
+		         
+		         WebElement name = driver.findElement(By.id("name"));
+		    	if (name.isDisplayed()&& name.isEnabled())
+		    	{
+		    		name.sendKeys(userName);
+		    	}
+		    	
+		        log().debug("Step: " + x +" " + name  + "  => Successful");
+		        }catch (Exception e){
+		        	Take_Screenshot( Constant.Screenshot, "Failed at " + name);
+		              log().debug("Error in Step "+x+" When: " + name  + " => because " + e.getMessage());
+		              throw(e);
+		        }
+		    }
 	    }
