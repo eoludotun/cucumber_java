@@ -1,8 +1,18 @@
 package com.stepDefinition;
 
 
-import org.openqa.selenium.By;
 
+
+
+
+
+
+
+
+import java.io.FileReader;
+import java.util.Map;
+
+import com.esotericsoftware.yamlbeans.YamlReader;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
@@ -15,7 +25,8 @@ public class Test_Steps extends BaseClass {
 
 	@Given("^User is on Home Page$")
 	public void user_is_on_Home_Page() throws Throwable {
-		StartTesting();    
+		StartTesting();  
+		
 	}
 
 	@When("^User Navigate to Billing Information Page$")
@@ -39,6 +50,11 @@ public class Test_Steps extends BaseClass {
 
 	@When("^User LogOut from the Application$")
 	public void user_LogOut_from_the_Application() throws Throwable {
+		YamlReader reader = new YamlReader(new FileReader("C://Test_Project//SeleniumTest//src//com//stepDefinition//data.yaml"));
+	    Object object = reader.read();
+	    System.out.println(object);
+	   // Map map = (Map)object;
+	    ///System.out.println(map.get("age"));
 	   driver.quit();
 	   driver.close();
 	
