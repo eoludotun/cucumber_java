@@ -32,7 +32,7 @@ public class BaseClassPOM_new {
 	}
 	//This is use for the getting the method name, not a big deal
     // just for reporting purposes
-    private static String name;
+    //private static String name;
     
     //This is for recounting the test case steps, not a big deal. but good for report purposes.(Log4j)
     private static int i = 1;

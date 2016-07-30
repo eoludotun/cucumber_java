@@ -76,5 +76,10 @@
 	<classpathentry kind="lib" path="C:/Test_Project/MedAptus_Project/APA_Project/lib/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="C:/Test_Project/MedAptus_Project/APA_Project/lib/xml-apis-1.4.01.jar"/>
 	<classpathentry kind="lib" path="C:/all_jars/snakeyaml-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/all_jars/jaxrs-api-3.0.4.Final-sources.jar"/>
+	<classpathentry kind="lib" path="C:/all_jars/jaxrs-api-3.0.4.Final.jar"/>
+	<classpathentry kind="lib" path="C:/all_jars/resteasy-jaxrs.jar"/>
+	<classpathentry kind="lib" path="C:/all_jars/ExcelReportGenerator-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/all_jars/MonteScreenRecorder.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

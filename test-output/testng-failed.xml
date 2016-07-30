@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="cucumberTest.SeleniumTest">
+      <class name="com.CommonAction.Test.PasswordEncryptor">
         <methods>
-          <include name="main"/>
+          <include name="test1"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- cucumberTest.SeleniumTest -->
+      </class> <!-- com.CommonAction.Test.PasswordEncryptor -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
